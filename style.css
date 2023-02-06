@@ -1,0 +1,12 @@
+#lightbox{
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    margin-top:25%;
+    margin-left:25%;
+    visibility:hidden;
+}
+
+#lightbox:target{
+    visibility:visible;
+}
